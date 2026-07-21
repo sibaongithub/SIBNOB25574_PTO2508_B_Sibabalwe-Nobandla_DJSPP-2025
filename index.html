@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PodcastApp — Discover and listen to podcasts</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- social preview metadata -->
+    <meta name="description" content="Browse, search and favourite podcasts, with a global player that keeps playing as you explore." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PodcastApp — Discover and listen to podcasts" />
+    <meta property="og:description" content="Browse, search and favourite podcasts, with a global player that keeps playing as you explore." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PodcastApp — Discover and listen to podcasts" />
+    <meta name="twitter:description" content="Browse, search and favourite podcasts, with a global player that keeps playing as you explore." />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // tell Tailwind to switch themes using a "dark" class on <html>
+      tailwind.config = { darkMode: "class" };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
